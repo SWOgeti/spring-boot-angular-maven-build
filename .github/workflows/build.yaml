@@ -5,6 +5,8 @@ on:
       - main
       - master
 
+
 jobs:
   call-workflow:
     uses: swogeti/workflows/.github/workflows/ru-maven.yaml@main
+    secrets: inherit
